@@ -55,6 +55,3 @@ if __name__ == "__main__":
     url = "http://localhost:8888/lms/portal/upload_paid_lesson.php?id="+file_id
 
     print(url)
-
-    webbrowser.open(url)
-
