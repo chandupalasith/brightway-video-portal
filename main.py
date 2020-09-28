@@ -51,7 +51,8 @@ if __name__ == "__main__":
     upload_480p.join()
     upload_360p.join()
     upload_240p.join()
+    
 
-    url = "http://localhost:8888/lms/portal/upload_paid_lesson.php?id="+file_id
+    url = "http://localhost:8888/lms/portal/upload_paid_lesson.php?id="+file_id 
 
-    print(url)
+    print(url) #print url
